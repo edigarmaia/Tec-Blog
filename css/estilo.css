@@ -5,7 +5,7 @@
 }
 body{
     font-size: 1em;
-    font-family: trebuchet, Helvetica, sans-serif;
+    font-family: trebuchet MS, Helvetica, sans-serif;
 }
 /*Layout*/
 #area-cabecalho{
@@ -17,6 +17,8 @@ body{
     padding: 10px;
 
 }
+
+
 /*Formatações em geral*/
 h1{
     color: #4e4e4e;
@@ -25,6 +27,34 @@ h1{
 .branco{
     color: #fff;
 }
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+#area-lateral, #area-postagens{
+    background: orange;
+}
+#rodape{
+    clear: both;
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+}
+
 /*Formatação do menu*/
 a{
     text-decoration: none;
@@ -37,3 +67,4 @@ a:hover{
     color: #f7b600;
     background: #fff;
 }
+/**/
